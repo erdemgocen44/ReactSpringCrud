@@ -1,4 +1,10 @@
 import React from "react";
+import Header from "./components/Header";
+import "bootstrap/dist/css/bootstrap.min.css";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Kayit from "./components/Kayit";
+import Listele from "./components/Listele";
+import Guncelle from "./components/Guncelle";
 
 const App = () => {
   return (
@@ -20,5 +26,4 @@ const App = () => {
     </div>
   );
 };
-
 export default App;
